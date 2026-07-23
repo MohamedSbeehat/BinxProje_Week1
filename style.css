@@ -328,3 +328,21 @@ section {
     transition: 0.7s ease;
     margin: 1rem;
 }
+
+
+.main-img{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-img img{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.main-img img:hover{
+    transform: scale(1.05);
+}
